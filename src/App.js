@@ -101,6 +101,7 @@ function App() {
 
     useEffect(() => {
         getTodoList();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentPage]);
 
     console.log("main page rendered");
