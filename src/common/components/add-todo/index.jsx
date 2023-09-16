@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const AddTodo = props => {
     const [task, setTask] = useState("");
-    const { count, onAddNewItem } = props;
+    const { onAddNewItem } = props;
 
     const handleTaskChange = e => {
         setTask(e.target.value);
